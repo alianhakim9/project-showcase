@@ -2,7 +2,7 @@
   "name": "alian-project-showcase",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alianhakim9.github.io/project-showcase/",
+  "homepage": "https://alianhakim9.github.io/project-showcase",
   "type": "module",
   "scripts": {
     "dev": "vite",

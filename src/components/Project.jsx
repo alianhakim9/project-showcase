@@ -14,7 +14,7 @@ const Project = ({ projectData }) => {
                 {projectData.images.map((image, index) => (
                     <img
                         key={index}
-                        src={`/public/images/mitra/${image.src}`}
+                        src={`images/mitra/${image.src}`}
                         alt={image.alt}
                         className="cursor-pointer max-w-full h-auto rounded-lg shadow-md"
                     />
