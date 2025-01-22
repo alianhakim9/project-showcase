@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "name": "Proyek web laravel - Mitra PT.Sahabat Sayur",
+      "description": "Proyek ini merupakan proyek yang dibangun untuk mempermudah perusahaan dalam melakukan manajemen mitra, terdiri dari role admin pusat, manager dan juga admin area. Masing-masing memiliki otorisasi berbeda di dalam aplikasi ini.",
+      "techStack": [
+        { "label": "Backend", "tech": "Laravel 8" },
+        { "label": "Frontend", "tech": "Jquery + Bootstrap 5" },
+        { "label": "Database", "tech": "MySQL" },
+        { "label": "Payment Gateway", "tech": "Flip" },
+        { "label": "Data Visualization", "tech": "Chart JS" },
+        { "label": "UX Form input", "tech": "Select 2" },
+        { "label": "Data Optimization", "tech": "Yajra Datatable" }
+      ],
+      "features": [
+        {
+          "title": "Authorization & Authentication",
+          "detail": [
+            "Sistem login berbasis nomor HP dan password dengan validasi role user (admin pusat, manager dan admin area.).",
+            "Mendukung fitur forgot password dengan pengiriman link reset via WhatsApp."
+          ]
+        },
+        {
+          "title": "Dashboard",
+          "detail": [
+            "Visualisasi data menggunakan chart (statistik user, transaksi, pendapatan).",
+            "Tabel interaktif dengan filter, sorting, dan pagination untuk mempermudah pengelolaan data.",
+            "Menu navigasi untuk mengakses dashboard transaksi, monitoring mitra manager, monitoring mitra admin, rekapitulasi, dan pengaturan."
+          ]
+        },
+        {
+          "title": "Managemen User",
+          "detail": [
+            "CRUD user dengan role-based access control.",
+            "Fitur pencarian dan filter berdasarkan nama, email, atau area"
+          ]
+        },
+        {
+          "title": "Pengaturan sistem",
+          "detail": [
+            "Admin pusat dapat mengubah konfigurasi sistem berdasarkan kebutuhan seperti target admin area, kategori, dan radius."
+          ]
+        },
+        {
+          "title": "Keamanan",
+          "detail": [
+            "Token-based authentication untuk API.",
+            "Validasi input data pada setiap form untuk mencegah serangan seperti SQL Injection."
+          ]
+        },
+        {
+          "title": "Transaksi",
+          "detail": [
+            "Penarikan dana komisi melalui API back-end",
+            "Integrasi API Flip"
+          ]
+        },
+        {
+          "title": "Dashboard Manager",
+          "detail": [
+            "Visualisasi data menggunakan chart (statistik user, transaksi, pendapatan)",
+            "Menu navigasi untuk mengakses pengajuan mitra usaha, monitoring mitra admin monitoring driver dan FAQ."
+          ]
+        },
+        {
+          "title": "Efisiensi Pengelolaan Data Besar",
+          "detail": [
+            "Yajra Server-Side digunakan untuk memproses tabel data secara dinamis, sehingga loading tetap cepat meskipun data berjumlah ribuan.",
+            "Select2 mempermudah pencarian data dalam dropdown besar, misalnya pemilihan area"
+          ]
+        },
+        {
+          "title": "Pemilihan Manager Area berdasarkan Kabupaten",
+          "detail": [
+            "Dropdown kabupaten terintegrasi.",
+            "Setelah kabupaten dipilih, sistem akan menampilkan dashboard manager yang bertanggung jawab di area tersebut.",
+            "Digunakan pada fitur-fitur seperti distribusi tugas atau pelaporan area."
+          ]
+        },
+        {
+          "title": "Menu Profil",
+          "detail": [
+            "Bisa mengubah foto profil secara langsung melalui fitur upload",
+            "Dapat mengelola profil pribadi seperti nama, email, dan nomor HP.",
+            "Memiliki fitur manajemen CV: Upload dan update file CV dalam format PDF, Pratinjau file CV yang sudah diunggah, Riwayat perubahan CV disimpan untuk keperluan audit",
+            "Validasi file upload (ukuran maksimal, format file yang diperbolehkan)"
+          ]
+        },
+        {
+          "title": "Lengkapi Data & Approval",
+          "detail": [
+            "Bisa mengubah foto profil secara langsung melalui fitur upload",
+            "Dapat mengelola profil pribadi seperti nama, email, dan nomor HP.",
+            "Memiliki fitur manajemen CV: Upload dan update file CV dalam format PDF, Pratinjau file CV yang sudah diunggah, Riwayat perubahan CV disimpan untuk keperluan audit",
+            "Validasi file upload (ukuran maksimal, format file yang diperbolehkan)"
+          ]
+        },
+        {
+          "title": "Fitur Tracking Status Approval",
+          "detail": [
+            "Setelah akun dibuat, admin, manajer, atau user lainnya diwajibkan melengkapi data profil (seperti nama lengkap, alamat, nomor telepon, foto profil, CV, dll.",
+            "Sistem akan memberikan notifikasi jika data belum lengkap atau masih dalam proses review.",
+            "Admin Area : Setelah melengkapi data, admin area harus disetujui oleh manajer area yang bertanggung jawab.",
+            "Notifikasi dikirim ke manajer untuk melakukan review dan persetujuan",
+            "Manager Area : Setelah melengkapi data, manajer area harus disetujui oleh admin pusat.",
+            "Notifikasi dikirim ke admin pusat untuk melakukan review dan persetujuan."
+          ]
+        },
+        {
+          "title": "Integrasi Whatsapp API",
+          "detail": [
+            "Sistem akan memberikan feedback dalam bentuk chat whatsapp ketika pengguna melakukan request reset password dan delivery akun"
+          ]
+        }
+      ],
+      "challenges": {
+        "challenge": "-",
+        "solution": "-"
+      },
+      "impact": [
+        "Demo langsung berhasil menarik tiga klien potensial.",
+        "Platform ini dapat diperluas dan disesuaikan untuk usaha kecil dan menengah."
+      ],
+      "links": [
+        { "label": "Live Demo", "url": "#" },
+        { "label": "GitHub Repository", "url": "#" }
+      ],
+      "images": [
+        {
+          "src": "mitra_1.png",
+          "alt": "mobile-version"
+        }
+      ]
+    }
+  ]
+}
